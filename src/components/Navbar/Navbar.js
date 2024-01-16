@@ -5,7 +5,7 @@ import logo from '../../logo.png'
 export default function Navbar() {
   return (
     <nav className='navbar'>
-			<img src={logo} alt="city tour logo" />
+			<img src={logo} class="mylogo" alt="city tour logo" />
 			<ul className='nav-links'>
 				<li>
 					<a href="/"className='nav-link'>Home</a>

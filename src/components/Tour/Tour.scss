@@ -34,6 +34,8 @@
 
 .tour-info {
 	padding: 1rem 0.5rem;
+	background-color: $mainBlack;
+	border-radius: 0rem 0rem 0.8rem 0.8rem;
 
 	h3 {
 		text-transform: uppercase;
@@ -41,11 +43,12 @@
 	}
 	h4 {
 		text-transform: capitalize;
-		color: $mainBlack;
+		color: $mainWhite;
 		margin: 0.2rem 0 0.6rem 0;
 	}
 	h5 {
 		text-transform: capitalize;
+		color: $mainGreen;
 
 		span {
 			color: $mainGreen;
@@ -53,5 +56,26 @@
 			font-size: 1.2rem;
 			cursor: pointer;
 		}
+	}
+	p {
+		color: $mainWhite;
+	}
+}
+
+@media all and (min-width: 480px) {
+	.tour {
+		margin: 2rem 0;
+	}
+}
+
+@media all and (min-width: 576px) {
+	.tour {
+		margin: 3rem 0;
+	}
+}
+
+@media all and (min-width: 768px) {
+	.tour {
+		margin: 1.5rem 0;
 	}
 }
